@@ -1,0 +1,4 @@
+1. How to load the large GIS data on the map
+2. If we have  multiple tables based on dropdown, we  ned to display data [ngClass]
+3. I have a dynamic component with a search field and input field, I want to only display the input field to one component, and I want to render the entire component to another
+4. In a dynamic matrix table, how to implement a checkbox
