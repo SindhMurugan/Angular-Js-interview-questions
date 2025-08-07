@@ -1,0 +1,42 @@
+1.what is ts
+2.what is the use of using framework
+3.different between js and angular
+4.different between js and react
+5.pure and impure pipe
+6.encapsulation
+7.directives
+8.host binding and listing
+9.custom pipe
+10.reactive and template driven fome
+11.dynamic component
+12.life cycle hook
+13.state management
+15.what is rxjs
+16.switch , exhaus,combine latest,fokjoin,concatmap,merge
+17.filters
+18.change detection
+19.depadency injection
+20.service
+21.difference between injecting service using constructor and inject method
+22.diff construcor and oninit
+23.aot and jit
+24.lazy load , how u create lazy load , how to checked weather the lazy load implemeneted or not
+25.activated router
+26.router state
+27.router guards
+28.resolved
+29.parent to child data sharing
+30.different method to data share
+31.custom directive
+32.view child and content child
+33.is it possible to access the directive using viewchild
+34.signal
+35.subjects
+36.promise vs observable
+37.debugg the angular application
+38.change port number
+39.optime the angular application
+40.authendication vs autherization
+41.ngx translate
+42.ngModel
+43.browser model
