@@ -1,0 +1,31 @@
+1.let,var,const
+2.Es6 Features
+3.closure and the real time use case
+4.call back
+5.call,apply,bind
+6.event loop
+7.behind the scene of the js
+8.promise and methods
+9.string methods
+10.hoisting
+11.event propogation
+12.prototype
+13.polyfills
+14.proto type
+15.scope
+16.call by value and call by referace
+17.immediatle invoke function
+18.spread and rest
+19.what is js
+20.js is async or sync
+21.difference between async and sync
+22.geolocation
+23.deep and shallow copy
+24.clone object
+25.why yiu are using script tag in body port
+26.async and defer view
+27.advantage of using js without framework
+28.pure and impure function
+29.this keywork
+30.template lettarals
+31.garbage collection
