@@ -70,6 +70,18 @@ Array.prototype.customReduce = function(cb){
     return initialVal
 }
 
+Array.prototype.customReduce = function(cb,intialValue){
+    // let value =0
+    let accumulater;
+    
+    for(let i=0;i<this.length;i++){
+        accumulater = accumulater?cb(accumulater,this[i] , i,this):this[0]   
+    }
+    
+    return accumulater
+}
+
+
 Array.prototype.customMap = function(cb){
     let temp =[]
     for(let i=0;i<this.length;i++){
