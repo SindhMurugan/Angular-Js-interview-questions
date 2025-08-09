@@ -42,4 +42,51 @@ console.log(2)
 }
 
 
-5.
+5.arr = [2,3,4,5,5,6,7,8]
+
+// 
+
+Array.prototype.customFilter = function(cb){
+    let temp =[]
+    
+    for(let i=0;i<this.length;i++){
+        if(cb(this[i] , i , this)){
+            temp = [...temp , this[i]]
+        }
+        
+    }
+    return temp
+}
+
+
+Array.prototype.customReduce = function(cb){
+    // let value =0
+    let initialVal =0
+    
+    for(let i=0;i<this.length;i++){
+        initialVal = cb(initialVal,this[i] , i,this)   
+    }
+    
+    return initialVal
+}
+
+Array.prototype.customMap = function(cb){
+    let temp =[]
+    for(let i=0;i<this.length;i++){
+        temp = [...temp , cb(this[i] , i,this)]
+    }
+    return temp
+}
+
+let reduce = arr.customReduce((acc, cur, index,self) => acc+cur , 0)
+console.log(reduce , 'reduce')
+
+let filter = arr.customFilter((acc, index,self) => acc > 2)
+console.log(filter ,'filter')
+
+
+
+let map =arr.customMap((item,index,self) => item*2)
+console.log("map" , map)
+
+
